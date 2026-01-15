@@ -1,0 +1,66 @@
+.box {
+    width: 200px;
+    /* height: 200px; */
+    flex: 0 0 250px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+.imgBox {
+    position: relative;
+}
+.textBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+.name {
+    font-size: 0.950rem;
+    font-weight: 600;
+    color: #FEF7EE;
+}
+.price {
+    font-size: 0.700rem;
+    font-weight: 600;
+    background-color: #BEE3CC;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.ratingBox {
+    display: flex;
+    font-size: 0.8rem;
+    column-gap: 4px;
+    margin-top: 8px;
+    align-items: center;
+}
+.rating {
+    color: #FEF7EE;
+    font-weight: 600;
+}
+.votes {
+    color: #6F757C;
+    font-weight: 600;
+}
+.sold {
+    color: #ED735D;
+    margin-left: auto;
+    font-size: 0.750rem;
+    font-weight: 600;
+}
+.floatText {
+    background-color: #F6C768;
+    border-radius: 16px;
+    font-size: 0.675rem;
+    padding: 4px 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

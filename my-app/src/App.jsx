@@ -1,8 +1,13 @@
+import style from './App.module.css'
+import ListingBox from './ListingBox';
+
 function App() {
   return (
     <>
-      <button>hey</button>
-      <div>hey</div>
+      <div className={style.bg}>
+        <div className={style.bgCafe} />
+        <ListingBox></ListingBox>
+      </div>
     </>
   );
 }

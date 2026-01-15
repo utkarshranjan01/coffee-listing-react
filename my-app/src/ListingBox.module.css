@@ -1,0 +1,56 @@
+.mainBox {
+    width: 80%;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: -110px;
+    background-color: #1B1D1F;
+    border-radius: 16px;
+    padding-top: 30px;
+    font-family: 'DM Sans', sans-serif;
+    padding-bottom: 60px;
+}
+.design {
+    background-image: url('./assets/vector.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    margin-left: 52%;
+}
+.textBox {
+    margin: 0 auto;
+    margin-top: -160px;
+}
+.headingText {
+    font-size: 2rem;
+    color: #FEF7EE;
+    text-align: center;
+    font-weight: bold;
+}
+.description {
+    font-size: 1rem;
+    color: #6F757C;
+    text-align: center;
+    font-weight: 500;
+    padding: 0 25%;
+    padding-top: 10px;
+}
+.buttonBox {
+    display: flex;
+    gap: 30px;
+    color: #FEF7EE;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+}
+.active {
+    background-color: #6F757C;
+}
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.btn:hover {
+    cursor: pointer;
+}
